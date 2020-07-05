@@ -1,0 +1,45 @@
+.header {
+    padding:0 0 0 1rem;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.header a {
+  color: #555;
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: transparent;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer a {
+  color: #4caf50;
+}
+
+.card-raised {
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.card-raised-sucess {
+  box-shadow: 0 16px 24px 2px rgba(40, 167, 69, 0.2),
+    0 6px 30px 5px rgba(40, 167, 69, 0.12), 0 8px 10px -5px rgba(40, 167, 69, 0.2);
+}
+
+.page-item.active .page-link {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+.page-link {
+    color: #555;
+}
+
+.page-link:hover {
+    color: #4caf50;
+}
