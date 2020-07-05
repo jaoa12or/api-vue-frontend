@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/styles.css'
 
-
 Vue.config.productionTip = false
 // Install BootstrapVue
 Vue.use(BootstrapVue)
