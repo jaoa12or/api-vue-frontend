@@ -273,7 +273,6 @@ export default {
         .post("http://localhost:9000/domains/search", form_data)
         .then(response => this.approved("Successful!", response))
         .catch(() => this.failed("Unsuccesful!"));
-      // alert(JSON.stringify(this.form));
     },
     getDomains: function(cursor, action) {
       axios

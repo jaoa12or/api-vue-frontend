@@ -1,3 +1,4 @@
+/* styles for header and footer */
 .header {
     padding:0 0 0 1rem;
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.12),
@@ -19,7 +20,9 @@
 .footer a {
   color: #4caf50;
 }
+/* end styles for header and footer */
 
+/* styles for cards */
 .card-raised {
   height: auto;
   margin-bottom: 2rem;
@@ -31,7 +34,9 @@
   box-shadow: 0 16px 24px 2px rgba(40, 167, 69, 0.2),
     0 6px 30px 5px rgba(40, 167, 69, 0.12), 0 8px 10px -5px rgba(40, 167, 69, 0.2);
 }
+/* end styles for cards */
 
+/* styles for page item component  */
 .page-item.active .page-link {
     background-color: #4caf50;
     border-color: #4caf50;
@@ -43,3 +48,4 @@
 .page-link:hover {
     color: #4caf50;
 }
+/* end styles for page item component  */
